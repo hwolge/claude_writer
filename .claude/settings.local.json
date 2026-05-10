@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc --version)",
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(New-Item -ItemType File -Path '__TRACKED_VAR__\\\\.gitkeep' -Force)",
+      "PowerShell(foreach \\($dir in @\\(\"research\",\"world\",\"characters\",\"timeline\",\"outline\",\"prose\"\\)\\) { New-Item -ItemType File -Path \"D:\\\\Dropbox\\\\Kanalen - en roman\\\\$dir\\\\.gitkeep\" -Force | Out-Null }; echo \"done\")",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
