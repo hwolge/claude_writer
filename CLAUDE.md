@@ -118,7 +118,7 @@ Time must progress monotonically across scenes and chapters. There are no flashb
 
 This folder has subfolders per chapter. Each subfolder is named with a timestamp prefix derived from the first scene's in-story date and time: `YYYY-MM-DD HHmm`, optionally followed by ` - ` and a title, e.g. `1942-08-14 0930 - Ankomsten`.
 
-Each scene within a chapter folder is a Markdown file (UTF-8, no BOM). File names follow the same convention: `YYYY-MM-DD HHmm.md` or `YYYY-MM-DD HHmm - Scentitel.md`. Every paragraph is written as one line; a blank line (LF) separates paragraphs. Markdown syntax should not appear in the prose itself — the `.md` extension is used purely to enable Pandoc-based export (see Build below).
+Each scene within a chapter folder is a Markdown file (UTF-8, no BOM). File names follow the same convention: `YYYY-MM-DD HHmm.md` or `YYYY-MM-DD HHmm - Scentitel.md`. Every paragraph is written as one line; paragraphs are separated by exactly one blank line (i.e. one LF after the paragraph line, then one LF for the blank line, then the next paragraph — never two blank lines between paragraphs). Markdown syntax should not appear in the prose itself — the `.md` extension is used purely to enable Pandoc-based export (see Build below).
 
 Note: Colons are not valid in Windows file and folder names. Use `HHmm` (no colon) for all timestamps in paths.
 

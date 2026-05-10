@@ -29,9 +29,9 @@ Järnvägen från fastlandet (Vellinge) löper in på Falsterbonäset från nord
 Resans ordning söderifrån sett: Malmö → Vellinge → [kanalstråket, näsets smalaste punkt] → Skanör → [90-graderssvängen] → Falsterbo.
 
 Konsekvenser för karaktärernas rörelsemönster:
-- Erik, som bor i Falsterbo och arbetar vid kanalstråket, måste dagligen passera **genom Skanör** i båda riktningarna
-- Klara, som bor i Skanör och arbetar i Falsterbo, cyklar **söderut** — en sträcka om ca 3 km längs vägen som löper mellan de två orterna; hon passerar **inte** kanalstråket, som ligger nordost om Skanör
-- Det naturliga mötet för Erik och Klara är i Skanör (på väg åt varsitt håll) eller i Falsterbo (hans bostad, hennes arbetsplats)
+- **Erik** bor i Falsterbo och arbetar vid kanalstråket. Hans väg dit går **inte** via Skanör: han cyklar NNO ut ur Falsterbo på en väg som löper mot Ljungen, ansluter ungefär halvvägs till den väg som kommer från Skanör, och fortsätter sedan österut ut på Ljungen till kanalstråket. Han passerar alltså Skanör varken på väg dit eller hem.
+- **Klara** bor i Skanör och arbetar på Falsterbohus. Hon cyklar den direkta vägen **söderut** längs näsets västra sida — ca 3 km. Hennes väg går rakt genom Falsterbo och **passerar Villa Sommarbo** på väg mot Falsterbohus, och förbi igen på vägen hem norrut.
+- Det naturliga mötet för Erik och Klara är i **Falsterbo** — hans bostad ligger längs hennes dagliga väg — inte i Skanör.
 
 ---
 

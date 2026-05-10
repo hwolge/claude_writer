@@ -11,3 +11,12 @@ desktop.ini
 # Dropbox
 .dropbox
 .dropbox.attr
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.venv
