@@ -18,7 +18,20 @@ Söder och sydväst om bebyggelsen: Falsterbo fyr, golfbanan (Falsterbo GK, grun
 
 Den ursprungliga fiskelägesbebyggelsen — korsvirkeshus längs trånga gränder — förstördes i de två stadsbränderna 1896 och 1911. Det som reste sig i stället är i huvudsak sekelskiftets och 1900-talets första decenniers villor och sommarhem: jugend, nationalromantik, trä och tegel, välhållna trädgårdar. Bebyggelsen är relativt ny, men acklimatiserad nog att kännas som om den alltid stått där.
 
-Falsterbo station byggdes 1903 som slutstation på Vellinge-Skanör-Falsterbo Järnväg, ritad av arkitekten Theodor Wåhlin. Stationsbyggnaden är liten men värdig — en naturlig orienteingspunkt för den som anländer.
+Falsterbo station byggdes 1903 som slutstation på Vellinge-Skanör-Falsterbo Järnväg, ritad av arkitekten Theodor Wåhlin. Stationsbyggnaden är liten men värdig — en naturlig orienteringspunkt för den som anländer.
+
+---
+
+## Järnvägens sträckning — viktigt för geografi och rörelse
+
+Järnvägen från fastlandet (Vellinge) löper in på Falsterbonäset från nordost. Den passerar **kanalstråket — näsets smalaste punkt — långt innan den når Skanör**, och fortsätter sedan ca 7 km västerut till **Skanörs station**. Där svänger linjen 90 grader och löper ca 3 km rakt söderut till **Falsterbo station** som är terminus.
+
+Resans ordning söderifrån sett: Malmö → Vellinge → [kanalstråket, näsets smalaste punkt] → Skanör → [90-graderssvängen] → Falsterbo.
+
+Konsekvenser för karaktärernas rörelsemönster:
+- Erik, som bor i Falsterbo och arbetar vid kanalstråket, måste dagligen passera **genom Skanör** i båda riktningarna
+- Klara, som bor i Skanör och arbetar i Falsterbo, cyklar **söderut** — en sträcka om ca 3 km längs vägen som löper mellan de två orterna; hon passerar **inte** kanalstråket, som ligger nordost om Skanör
+- Det naturliga mötet för Erik och Klara är i Skanör (på väg åt varsitt håll) eller i Falsterbo (hans bostad, hennes arbetsplats)
 
 ---
 

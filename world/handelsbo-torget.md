@@ -6,7 +6,7 @@
 
 ## Läge
 
-Handelsboden ligger vid det lilla torget i centrala Falsterbo — det naturliga knutpunkten för bybor och sommarfolk. Villa Sommarbo, där Erik Lindfelt bor 1938, ligger ca 100 meter norr om boden.
+Handelsboden ligger vid det lilla torget i centrala Falsterbo — det naturliga knutpunkten för bybor och sommarfolk. Villa Sommarbo, där Erik Lindfelt bor 1938, ligger bara ett kvarter norr om boden.
 
 ---
 

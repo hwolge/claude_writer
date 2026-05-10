@@ -10,6 +10,8 @@ Falsterbonäsets smalaste del — den naturliga platsen för ett genomskärande 
 
 Kanalen löper ca 1,6 km tvärs över näset från Öresundssidan till Östersjösidan. Det är geotekniskt ett förhållandevis enkelt snitt — sand och lera, inga bergmassor — men den öppna terrängen gör bygget känsligt för väder och kräver temporär dränering under arbetet.
 
+**Kanalstråkets läge i förhållande till orterna:** Kanalstråket ligger nordost om Skanör — inte mellan Skanör och Falsterbo. Järnvägen från fastlandet passerar stråket långt innan den når Skanör. Den som reser med tåg söderifrån möter kanalstråket först, sedan Skanör, sedan Falsterbo. Vägen mellan Skanör och Falsterbo (Klaras cykelväg söderut) passerar inte kanalstråket.
+
 Innan beslutet om kanal är landskapet ett ingenmanssland i praktiken: inte brukbart för jordbruk, inte tillgängligt för bebyggelse, inte av kommersiellt intresse — tills det plötsligt är det.
 
 ---

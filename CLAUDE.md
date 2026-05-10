@@ -116,9 +116,11 @@ Time must progress monotonically across scenes and chapters. There are no flashb
 
 ## /prose
 
-This folder has subfolders per chapter. Each subfolder is named with a timestamp prefix derived from the first scene's in-story date and time: `YYYY-MM-DD HH:mm`, optionally followed by ` - ` and a title, e.g. `1942-08-14 09:30 - Ankomsten`.
+This folder has subfolders per chapter. Each subfolder is named with a timestamp prefix derived from the first scene's in-story date and time: `YYYY-MM-DD HHmm`, optionally followed by ` - ` and a title, e.g. `1942-08-14 0930 - Ankomsten`.
 
-Each scene within a chapter folder is a Markdown file (UTF-8, no BOM). File names follow the same convention: `YYYY-MM-DD HH:mm.md` or `YYYY-MM-DD HH:mm - Scentitel.md`. Every paragraph is written as one line; a blank line (LF) separates paragraphs. Markdown syntax should not appear in the prose itself — the `.md` extension is used purely to enable Pandoc-based export (see Build below).
+Each scene within a chapter folder is a Markdown file (UTF-8, no BOM). File names follow the same convention: `YYYY-MM-DD HHmm.md` or `YYYY-MM-DD HHmm - Scentitel.md`. Every paragraph is written as one line; a blank line (LF) separates paragraphs. Markdown syntax should not appear in the prose itself — the `.md` extension is used purely to enable Pandoc-based export (see Build below).
+
+Note: Colons are not valid in Windows file and folder names. Use `HHmm` (no colon) for all timestamps in paths.
 
 Scenes should remain modular and focused.
 
@@ -133,13 +135,13 @@ Each scene must:
 Prose files are Markdown so they can be compiled to PDF, EPUB, or DOCX using [Pandoc](https://pandoc.org). Example — export a single chapter to PDF:
 
 ```
-pandoc "prose/1942-08-14 09:30 - Ankomsten/"*.md -o chapter1.pdf
+pandoc "prose/1942-08-14 0930 - Ankomsten/"*.md -o chapter1.pdf
 ```
 
 For PDF output, Pandoc requires a LaTeX engine (e.g. MiKTeX). DOCX output works without LaTeX:
 
 ```
-pandoc "prose/1942-08-14 09:30 - Ankomsten/"*.md -o chapter1.docx
+pandoc "prose/1942-08-14 0930 - Ankomsten/"*.md -o chapter1.docx
 ```
 
 Files are concatenated in filesystem order, which matches the timestamp-prefixed naming convention.
