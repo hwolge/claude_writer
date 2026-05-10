@@ -163,6 +163,22 @@ Cross-references are informational — they suggest where to look for context or
 
 ---
 
+# Berättarröst
+
+Romanen saknar berättarröst helt. Det finns ingen extern berättare som kommenterar, sammanfattar eller värderar.
+
+Varje scen är strikt begränsad till POV-karaktärens omedelbara perception och tankar. Det innebär:
+
+- Ingen berättare som vet mer än POV-karaktären vid det givna ögonblicket
+- Inga förutskickanden ("Han visste inte att…", "Det skulle dröja länge innan…")
+- Inga retrospektiva insikter formulerade utifrån ("Senare skulle han förstå…")
+- Ingen sammanfattning av tid som gått utanför en karaktärs direkta upplevelse
+- Ingen värdering eller tolkning av händelser som inte tillhör POV-karaktärens medvetande
+
+Förfluten tid och mellanliggande skeenden når läsaren endast genom karaktärernas minnen, samtal och iakttagelser — aldrig genom berättarkommentar.
+
+---
+
 # Writing Style Guidelines
 
 Avoid:
