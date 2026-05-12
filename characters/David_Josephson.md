@@ -12,6 +12,12 @@
 
 ---
 
+## Utseende
+
+Liten och kompakt, knappt 170 cm, med den diskreta närvaron hos en man van vid att inte ta mer utrymme än nödvändigt. Håret är mörkt med inslag av grått, alltid välkammat. Ansiktet är ovalt och korrekt; glasögonen är halvrunda i guldfärgad ram och bidrar till ett intryck av noggrannhet snarare än lärdom. Han rör sig tyst och rakt; blicken är varm men lite på avstånd, som om den vanligen är fokuserad på dokument snarare än på människor. I sällskapslivet kan han missuppfattas som blyg — han är det inte.
+
+---
+
 ## Karaktär
 
 Josephson är en perifer men återkommande figur i de sammanhang där affärer diskuteras — kanalfinansieringar, fastighetsaffärer, utländska transaktioner. Han dyker upp när siffrorna behöver stämmas av, när krediter ska förhandlas, när en diskret bedömning behövs.

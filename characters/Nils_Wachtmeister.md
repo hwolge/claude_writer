@@ -13,11 +13,19 @@
 
 ---
 
+## Utseende
+
+Hög och rak, 183 cm, med en kropp som hålls i tjänstens ordning och inte verkar tänka på saken. Håret är ljust, kort och grå vid tinningarna; en tydlig fläck av sol på pannan och kinden markerar en man som tillbringar tid utomhus. Ansiktet är smalt, nordiskt, med en precis blick — inte kall, men van vid distans. Händerna är starka och lagom bruna. Han bär sina civila kläder som uniformer: rakt, pressade, med ingenting hängande fel. Man kan se vilken han är utan att han behöver säga det.
+
+---
+
 ## Karaktär
 
 Wachtmeister är en ämbetets man med en stillsam övertygelse som han inte marknadsför. Han ser vad som behöver göras — en kanal, en säker passage innanför näset, ett alternativ till det farligarevet — men han förstår att det är politikens uppgift att driva sådana frågor, inte marinens.
 
 Han talar inte öppet om sin bedömning av världsläget. Det är inte feghet — det är en grundad uppfattning om vad som är hans roll och vad som är andras. Han noterar, han är tillgänglig för rätt frågor från rätt håll, och han väntar.
+
+Han vet inte att en SGU-survey av kanalstråket redan pågår sommaren 1938. Planerna är mer konkreta än han känner till. Det är ironin i hans position: den som har mest fog för sin övertygelse har minst insyn i att den börjar förverkligas.
 
 Han är inte dramatisk och han söker inga konflikter. Det gör honom svårare att läsa än en mer upprörd man.
 
@@ -33,7 +41,7 @@ Wachtmeister representerar det militärstrategiska argument som till slut driver
 
 Han vet allt detta 1938. Han kan inte säga det offentligt — men han kan sätta sig ner med rätt person och ställa rätt frågor om kustgeologin.
 
-*Det är en möjlig ingångspunkt för hans relation till Erik Lindfelt, vars arbete sommaren 1938 tangerar just dessa frågor.*
+*Det planerade samtalet med Erik Lindfelt — se [tråd 1 i threads.md](../plots/threads.md) — är det ögonblick där Wachtmeister och Erik var för sig lägger ihop 2 och 2. Tidpunkt oklar, troligen 1938 eller tidigt 1939.*
 
 ---
 

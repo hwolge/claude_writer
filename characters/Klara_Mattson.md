@@ -9,8 +9,14 @@
 - **Född:** ca 1914–1916, Skanör (exakt år att fastställa i outlinen)
 - **Ålder under romanens period:** ca 22–24 vid historiens början (1938)
 - **Ursprung:** Fiskarfamilj i Skanör; enkla förhållanden, ingen akademisk bildning
-- **Arbete 1938:** Anställd vid Falsterbohus — troligen som servitris, städpersonal eller i köket; säsongsanställning sommar
+- **Arbete 1938:** Servitris vid Falsterbohus; säsongsanställning maj–september. Ingår vid behov i den personal som lånas ut för privata middagar i ortens etablissemang
 - **Bostadsort:** Bor hemma hos familjen i Skanör; cyklar dagligen till Falsterbohus under säsongen
+
+---
+
+## Utseende
+
+Medelhög, 163–165 cm, med en kropp van vid arbete — inte tung men kompakt, med en styrka som syns i hur hon rör sig, effektivt och utan onödiga gester. Hon är ljushyllt med hår som är blont eller ljust brunt beroende på säsong och ljuset; hon bär det uppkammat i arbetet, löst hemma. Ögonen är blå, klara och direkta — de verkar alltid lite mer uppmärksamma än situationen kräver. Ansiktet är öppet och välproportionerat, inte påfallande vackert på ett dramatiskt sätt, mer den sortens utseende som sitter kvar i minnet efteråt än det som fastnar på direkten.
 
 ---
 

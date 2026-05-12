@@ -6,12 +6,11 @@
 
 ## Geografi och läge
 
-Falsterbo ligger i spetsen av Falsterbonäset — den smala landtunga som kilar in mellan Öresund i väster och Östersjön i öster. Näset avsmalnar söderut; Falsterbo ligger längst ut, med havet på tre sidor och den flacka skånska landsbygden i norr som enda landförbindelse.
+Falsterbo ligger på den sydvästra spetsen av Näset — den låga halvö som skiljer Öresund från Östersjön. Själva ”näset” är den smala landremsa som längre österut binder samman halvön med det skånska fastlandet. Detta är platsen där Falsterbokanalen byggdes. Därifrån breder landtungan ut sig mot väster i två grenar: Skanör i norr och Falsterbo i söder.
 
-Det är ett landskap utan höjder. Siktlinjen är horisontell — hav, ljung, sanddyner och himmel. Vinden märks alltid, i någon grad.
+Landskapet är flackt och öppet. Horisonten domineras av hav, sanddyner, ljung och himmel, och vinden är nästan alltid närvarande.
 
-Söder och sydväst om bebyggelsen: Falsterbo fyr, golfbanan (Falsterbo GK, grundad 1909, 18-hålsbana från 1930) och det naturreservat som kallas Flommen — ett öppet landskap av sandbankar, vassruggar och grunda vatten dit fåglarna samlas varje höst under den stora sydliga sträcket.
-
+Söder och väster om Falsterbo öppnar sig det låglänta kustlandskapet med Falsterbo fyr, golfbanan och naturreservatet Flommen. Reservatet följer i stora drag den västra havssidan mellan Falsterbo och Skanör: strandängar, sandrevlar, vass och grunda vatten, präglade av fågellivet och de stora höststräcken över Näset.
 ---
 
 ## Bebyggelse och historia
@@ -24,24 +23,21 @@ Falsterbo station byggdes 1903 som slutstation på Vellinge-Skanör-Falsterbo J�
 
 ## Järnvägens sträckning — viktigt för geografi och rörelse
 
-Järnvägen från fastlandet (Vellinge) löper in på Falsterbonäset från nordost. Den passerar **kanalstråket — näsets smalaste punkt — långt innan den når Skanör**, och fortsätter sedan ca 7 km västerut till **Skanörs station**. Där svänger linjen 90 grader och löper ca 3 km rakt söderut till **Falsterbo station** som är terminus.
+Järnvägen från fastlandet (Vellinge) löper in på Falsterbonäset från nordost. Den passerar **kanalstråket — näsets smalaste punkt**, och fortsätter sedan ca 7 km västerut till **Skanörs station**. Där svänger linjen 90 grader och löper ca 3 km rakt söderut till **Falsterbo station** som är terminus. Mellan Skanör och Falsterbo ligger Flommarna (dagens Flommens Naturreservat) på västra/havs-sidan sidan om järnvägen och landsvägen något stenkast på andra hållet. Insprängt i Flommarna kommer först Flommens Golfklubb och sedan Falsterbo Golfklubb, när man färdas från Skanör mot Falsterbo
 
-Resans ordning söderifrån sett: Malmö → Vellinge → [kanalstråket, näsets smalaste punkt] → Skanör → [90-graderssvängen] → Falsterbo.
+Resans ordning: Malmö → Vellinge → [kanalstråket, näsets smalaste punkt] → Skanör → [90-graderssvängen] → Falsterbo.
 
 Konsekvenser för karaktärernas rörelsemönster:
-- **Erik** bor i Falsterbo och arbetar vid kanalstråket. Hans väg dit går **inte** via Skanör: han cyklar NNO ut ur Falsterbo på en väg som löper mot Ljungen, ansluter ungefär halvvägs till den väg som kommer från Skanör, och fortsätter sedan österut ut på Ljungen till kanalstråket. Han passerar alltså Skanör varken på väg dit eller hem.
-- **Klara** bor i Skanör och arbetar på Falsterbohus. Hon cyklar den direkta vägen **söderut** längs näsets västra sida — ca 3 km. Hennes väg går rakt genom Falsterbo och **passerar Villa Sommarbo** på väg mot Falsterbohus, och förbi igen på vägen hem norrut.
-- Det naturliga mötet för Erik och Klara är i **Falsterbo** — hans bostad ligger längs hennes dagliga väg — inte i Skanör.
+- **Erik** bor i Falsterbo och arbetar vid kanalstråket. Den direkta vägen NNO ut ur Falsterbo är för sandig och ojämn för en lastad varucykel, vilket Erik konstaterar tidigt. Hans arbetsväg går därför **norrut via Skanör** längs landsvägen, sedan österut mot Ljungen längs fast underlag — en modest omväg som kostar femton minuter men ger pålitlig vägkvalitet. Denna rutt etableras i maj 1938 av praktiska skäl och förblir hans fasta väg alla somrar. Att den passerar Skanör ger också berättelsens övriga Skanörs-anknutna händelser en naturlig geografisk förankring.
+- **Klara** bor i Skanör och arbetar på Falsterbohus. Hon cyklar den direkta vägen **söderut** längs näsets västra sida, strax innanför Flommarna (vattendammarna i Flommens Naturreservat) — ca 3 km. Hennes väg går sedan rakt genom Falsterbo och **passerar Pensionat Olympia** på väg mot Falsterbohus, och förbi igen på vägen hem norrut.
 
 ---
 
 ## Två delar
 
-**Södra Falsterbo** — äldre karaktär, tätare bebyggelse, Falsterbohus, kyrkan, fyren. Det är här det gamla fiskesamhällets spår fortfarande kan anas i gatustrukturen, och det är här sommarlivet koncentreras: hotellet, boden, torget.
+**Södra Falsterbo** — äldre karaktär, tätare bebyggelse, Falsterbohus, kyrkan, fyren. Det är här det gamla fiskesamhällets spår fortfarande kan anas i gatustrukturen, och det är här sommarlivet koncentreras: hotellet, boden, torget. Ut mot golfbanan byggdes under med börja på 1900-talet, då järnvägen byggdes, många tjusiga sommarvillor på det som idag skulle kallas "gräddhyllan", remsan innaför den fina strandsanden med utsikt mot Östersjön. Här ligger också den fiktiva Rotslowska sommarvillan. Här bor också det etablerade borgerskapet och de mer varaktigt förankrade sommarborna från borgar- och överklassen.
 
-**Norra Falsterbo** — villabebyggelse, luftigare tomter, mer solitärt. Möllemadsvägen löper genom området.
-
-Det Rotslowska residenset ligger i sydvästra Falsterbo, söder om vägen ut mot golfklubben — i den del av orten som bebos av det etablerade borgerskapet och de mer varaktigt förankrade sommarborna.
+**Norra och Östra Falsterbo** — villabebyggelse, luftigare tomter, mer solitärt. Enklare sommarstugor jämfört med "gräddhyllan", typiskt för övre medelklassen.
 
 ---
 
@@ -55,16 +51,16 @@ Den sociala hierarkin är tydlig men sällan högt uttalad:
 - De som hyr rum på Falsterbohus eller pensionat är gäster med tillträde men utan arv
 - De som arbetar på hotellet, i handelsboden, på golfbanan eller i hushållen tillhör ortens infrastruktur — synliga och nödvändiga, men inte inbjudna
 
-Klara Mattson cyklar dagligen från Skanör till Falsterbohus och rör sig i den tredje kategorin. Erik Lindfelt bor på Villa Sommarbo och befinner sig i den andra — ett läge han hanterar med öppen ögon.
+Klara Mattson cyklar dagligen från Skanör till Falsterbohus och rör sig i den tredje kategorin. Erik Lindfelt bor på Pensionat Olympia och befinner sig i den andra — ett läge han hanterar med öppna ögon.
 
 ---
 
 ## Nyckelplatser
 
 - **Falsterbohus** — hotellet vid stranden, ortens sociala centrum under säsongen. *Se [falsterbohus.md](falsterbohus.md).*
-- **Villa Sommarbo (Pensionat Sommarbo)** — ca 100 m norr om handelsboden. Eriks bostad 1938. *Se [villa-sommarbo.md](villa-sommarbo.md).*
-- **Handelsboden vid torget** — liten allmänhandel vid det centrala torget. Latent svartabörsfunktion under krigsåren. *Se [handelsbo-torget.md](handelsbo-torget.md).*
-- **Det Rotslowska residenset** — i sydvästra Falsterbo, söder om vägen mot golfklubben. *Se [rotslowska-residenset.md](rotslowska-residenset.md).*
+- **Pensionat Olympia (tidigare Villa Sommarbo)** — strax norr om handelsboden. Eriks bostad 1938. Nyöppnat av William och Hanna Svensson. *Se [olympia.md](olympia.md).*
+- **Handelsboden vid torget** — liten allmänhandel vid det centrala torget. Latent svartabörsfunktion under krigsåren. *Se [handelsbod-torget.md](handelsbod-torget.md).*
+- **Den Rotslowska sommarvillan** — i sydvästra Falsterbo, söder om vägen mot golfklubben. *Se [rotslowska-sommarvillan.md](rotslowska-sommarvillan.md).*
 - **Falsterbo station** — slutstation, ankomstpunkten. Liten, välhållen, Wåhlins hand.
 - **Falsterbo fyr** — sydväst, vid golfbanans kant. Vitt torn, öppet landskap.
 - **Falsterbo kyrka** — medeltida ursprung, i södra Falsterbo.
@@ -73,9 +69,9 @@ Klara Mattson cyklar dagligen från Skanör till Falsterbohus och rör sig i den
 
 ## Skanör och förhållandet till tvillingstan
 
-Skanör ligger ca 3–4 km norrut längs näset — administrativt centrum, rådhus, Borgmästare Rotslows ordinarie tjänstgöringsort. De två städerna bildar tillsammans Skanör med Falsterbo, men de har distinkt olika karaktär:
+Skanör ligger ca 3–4 km norrut från Falsterbo — administrativt centrum, rådhus, Borgmästare Rotslows ordinarie tjänstgöringsort. De två orterna bildar tillsammans Skanör med Falsterbo, men de har distinkt olika karaktär:
 
-- Skanör är årets stad — ämbetet, rådhusrätten, det dagliga livet
+- Skanör är åretrunt stad — ämbetet, rådhusrätten, det dagliga livet
 - Falsterbo är sommarens stad — sällskapet, representationen, det sociala spelet
 
 Rotslow rör sig i båda, och förstår skillnaden. Det gör Helena också.

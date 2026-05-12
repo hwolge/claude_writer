@@ -10,6 +10,7 @@ import sys
 import os
 import re
 import json
+import time
 from pathlib import Path
 from datetime import datetime
 
@@ -34,6 +35,60 @@ def get_models():
     primary = os.getenv("PRIMARY_MODEL", "gpt-4.5")
     fast    = os.getenv("FAST_MODEL",    "gpt-4.5-mini")
     return primary, fast
+
+
+# ---------------------------------------------------------------------------
+# Statistics
+# ---------------------------------------------------------------------------
+
+# Token prices in USD per 1M tokens (input / output).
+# Override via .env: PRIMARY_PRICE_IN, PRIMARY_PRICE_OUT, FAST_PRICE_IN, FAST_PRICE_OUT
+_DEFAULT_PRICES = {
+    "gpt-4.5":      (75.00, 150.00),
+    "gpt-4.5-mini": ( 0.40,   1.60),
+}
+
+_stats: list[dict] = []   # accumulated across all calls in a session
+
+
+def _prices(model: str) -> tuple[float, float]:
+    env_in  = os.getenv(f"{model.upper().replace('-','_')}_PRICE_IN")
+    env_out = os.getenv(f"{model.upper().replace('-','_')}_PRICE_OUT")
+    default = _DEFAULT_PRICES.get(model, (10.0, 30.0))
+    return (float(env_in) if env_in else default[0],
+            float(env_out) if env_out else default[1])
+
+
+def record_stat(label: str, model: str, elapsed: float, usage) -> dict:
+    """Record one API call and return its stat dict."""
+    tok_in  = usage.prompt_tokens
+    tok_out = usage.completion_tokens
+    p_in, p_out = _prices(model)
+    cost = (tok_in * p_in + tok_out * p_out) / 1_000_000
+    stat = dict(label=label, model=model, elapsed=elapsed,
+                tok_in=tok_in, tok_out=tok_out, cost=cost)
+    _stats.append(stat)
+    return stat
+
+
+def print_stat(stat: dict):
+    print(f"  [{stat['label']}] {stat['elapsed']:.1f}s  "
+          f"↑{stat['tok_in']:,} ↓{stat['tok_out']:,} tokens  "
+          f"${stat['cost']:.4f}")
+
+
+def print_summary():
+    if not _stats:
+        return
+    total_cost    = sum(s["cost"]    for s in _stats)
+    total_tok_in  = sum(s["tok_in"]  for s in _stats)
+    total_tok_out = sum(s["tok_out"] for s in _stats)
+    total_elapsed = sum(s["elapsed"] for s in _stats)
+    print(f"\n{'─'*55}")
+    print(f"  Totalt  {total_elapsed:.1f}s  "
+          f"↑{total_tok_in:,} ↓{total_tok_out:,} tokens  "
+          f"${total_cost:.4f}")
+    print(f"{'─'*55}")
 
 
 # ---------------------------------------------------------------------------
@@ -125,27 +180,59 @@ def print_scene_list(scenes: list[dict]):
             current_outline = s["outline"]
             print(f"\n  {chapter_title(current_outline)}")
         if s["prose_mtime"]:
-            status = f"✓  (uppdaterad {s['prose_mtime']})"
+            status = f"✓  (updated {s['prose_mtime']})"
         else:
-            status = "–  ej genererad"
+            status = "-  not generated"
         print(f"  {i:>2}.  Scen {s['number']} — {s['title']:<40}  [{s['tidpunkt']}]  {status}")
 
 
 def prompt_scene_choice(scenes: list[dict]) -> dict:
     while True:
         try:
-            raw = input("\nVälj scen (nummer): ").strip()
+            raw = input("\nSelect scene (number): ").strip()
             idx = int(raw) - 1
             if 0 <= idx < len(scenes):
                 return scenes[idx]
-            print(f"     Ange ett tal mellan 1 och {len(scenes)}.")
+            print(f"     Enter a number between 1 and {len(scenes)}.")
         except (ValueError, EOFError):
-            print("     Ogiltigt val.")
+            print("     Invalid choice.")
 
 
 def confirm(prompt: str) -> bool:
     ans = input(prompt).strip().lower()
-    return ans in ("j", "ja", "y", "yes", "")
+    return ans in ("y", "yes", "")
+
+
+def prompt_existing_action(scene: dict) -> str:
+    """Return 'abort', 'regenerate', 'revise', or 'continuity'."""
+    print(f"\n  Prose exists (updated {scene['prose_mtime']})")
+    print("  1. Keep existing (abort)")
+    print("  2. Regenerate")
+    print("  3. Revise")
+    print("  4. Update continuity only")
+    while True:
+        ans = input("  Choice [1/2/3/4]: ").strip()
+        if ans in ("1", ""):
+            return "abort"
+        if ans == "2":
+            return "regenerate"
+        if ans == "3":
+            return "revise"
+        if ans == "4":
+            return "continuity"
+        print("  Enter 1, 2, 3 or 4.")
+
+
+def prompt_revision_instruction() -> str:
+    print("\nRevision instructions (empty line to finish):")
+    lines = []
+    while True:
+        line = input()
+        if line == "" and lines:   # at least one line before accepting empty
+            break
+        if line != "" or lines:
+            lines.append(line)
+    return "\n".join(lines).strip()
 
 
 # ---------------------------------------------------------------------------
@@ -154,7 +241,7 @@ def confirm(prompt: str) -> bool:
 
 def collect_background_files() -> list[dict]:
     result = []
-    for folder in ["characters", "world", "research"]:
+    for folder in ["characters", "world", "research", "plots"]:
         folder_path = ROOT / folder
         if not folder_path.exists():
             continue
@@ -177,6 +264,7 @@ def select_files(client, fast_model: str, scene_card: str, all_files: list[dict]
         "som är relevanta för den här scenen. Inkludera karaktärsfiler för nämnda personer, "
         "platsfiler för nämnda platser, och research-filer som kan vara till nytta."
     )
+    t0   = time.time()
     resp = client.chat.completions.create(
         model=fast_model,
         messages=[
@@ -186,6 +274,7 @@ def select_files(client, fast_model: str, scene_card: str, all_files: list[dict]
         response_format={"type": "json_object"},
         temperature=0,
     )
+    print_stat(record_stat("file-select", fast_model, time.time() - t0, resp.usage))
     data  = json.loads(resp.choices[0].message.content)
     paths = data.get("files", [])
     return [ROOT / p for p in paths if (ROOT / p).exists()]
@@ -254,6 +343,93 @@ def load_prose_context(scene: dict, all_scenes: list[dict]) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Continuity
+# ---------------------------------------------------------------------------
+
+def collect_continuity_context(scene: dict, all_scenes: list[dict]) -> str:
+    """Return continuity extracts from all scenes preceding the current one."""
+    cont_dir = ROOT / "continuity"
+    if not cont_dir.exists():
+        return ""
+    current_idx = next(
+        (i for i, s in enumerate(all_scenes)
+         if s["outline"] == scene["outline"] and s["number"] == scene["number"]),
+        None,
+    )
+    if not current_idx:
+        return ""
+    parts = []
+    for s in all_scenes[:current_idx]:
+        if not s["file_stem"] or not s["prose_file"]:
+            continue
+        for candidate in sorted(cont_dir.glob("*.md")):
+            if candidate.stem.startswith(s["file_stem"]):
+                content = candidate.read_text(encoding="utf-8").strip()
+                parts.append(f"[Scen {s['number']}: {s['title']}]\n{content}")
+                break
+    return "\n\n---\n\n".join(parts)
+
+
+def _target_words(scene: dict) -> int:
+    """Parse declared scene length from card text, default 2000."""
+    m = re.search(r'Längd.*?(\d[\s\d]{1,4})\s*ord', scene["card_text"])
+    if m:
+        try:
+            return int(m.group(1).replace(" ", "").replace("\xa0", ""))
+        except ValueError:
+            pass
+    return 2000
+
+
+def extract_continuity(client, fast_model: str, scene: dict, prose: str) -> str:
+    """Extract terse continuity factoids from prose via mini-model."""
+    max_bullets = max(5, min(20, _target_words(scene) // 150 + 3))
+    prompt = (
+        "Läs prosascenen nedan. Extrahera korta, konkreta faktapunkter enbart för detaljer "
+        "som är viktiga för kontinuitet i framtida scener och som INTE redan framgår av "
+        "sedvanliga karaktärs- eller platsbeskrivningar.\n\n"
+        "Inkludera:\n"
+        "- Fysiska detaljer om namngivna bikaraktärer (kläder, röst, rörelse, specifika drag)\n"
+        "- Rums-/platsdetaljer som etablerats i scenen (färger, ljud, lukt, specifika föremål)\n"
+        "- Konkreta vanor eller beteenden som visas i scenen\n\n"
+        "Inkludera INTE:\n"
+        "- Psykologi eller abstrakta karaktärsdrag\n"
+        "- Plotinformation eller händelseförlopp\n"
+        "- Fakta som är uppenbara ur karaktärernas bakgrundsfiler\n\n"
+        f"Format: bullet points på svenska, max {max_bullets} punkter, varje punkt max 15 ord. "
+        "Svara enbart med bullet points — ingen rubrik, ingen inledning.\n\n"
+        f"Scen: {scene['title']} ({scene['tidpunkt']})\n\n"
+        f"Prosa:\n{prose}"
+    )
+    t0   = time.time()
+    resp = client.chat.completions.create(
+        model=fast_model,
+        messages=[
+            {"role": "system", "content": "Du är en kortfattad kontinuitetsassistent för ett romanprojekt."},
+            {"role": "user",   "content": prompt},
+        ],
+        temperature=0,
+        max_completion_tokens=600,
+    )
+    print_stat(record_stat("continuity", fast_model, time.time() - t0, resp.usage))
+    return resp.choices[0].message.content.strip()
+
+
+def save_continuity(scene: dict, content: str) -> Path | None:
+    """Save (overwrite) continuity extract for a scene."""
+    if not scene["file_stem"]:
+        return None
+    cont_dir = ROOT / "continuity"
+    cont_dir.mkdir(exist_ok=True)
+    path = cont_dir / f"{scene['file_stem']} - {scene['title']}.md"
+    path.write_text(
+        f"# Kontinuitet — {scene['title']} ({scene['tidpunkt']})\n\n{content}\n",
+        encoding="utf-8",
+    )
+    return path
+
+
+# ---------------------------------------------------------------------------
 # Output path
 # ---------------------------------------------------------------------------
 
@@ -281,7 +457,8 @@ def derive_output_path(scene: dict) -> Path:
 
 def generate_prose(client, primary_model: str, scene: dict,
                    context_files: list[Path], claude_md: str,
-                   chapter_context: str, prose_context: str) -> str:
+                   chapter_context: str, prose_context: str,
+                   continuity_context: str = "") -> str:
     file_blocks = [f"### {f.name}\n{f.read_text(encoding='utf-8')}" for f in context_files]
 
     system_parts = ["# Stilriktlinjer och projektregler\n" + claude_md]
@@ -289,13 +466,20 @@ def generate_prose(client, primary_model: str, scene: dict,
         system_parts.append("# Projektfiler — bakgrundsmaterial\n" + "\n\n".join(file_blocks))
     if chapter_context:
         system_parts.append("# Kapitelkontext — översikt och tidigare scenkort\n" + chapter_context)
+    if continuity_context:
+        system_parts.append("# Kontinuitetsfakta — detaljer etablerade i tidigare scener\n" + continuity_context)
     if prose_context:
-        system_parts.append("# Prosareferens — tidigare scener för kontinuitet och röst\n" + prose_context)
+        system_parts.append("# Prosareferens — tidigare scener för stilmatchning och röst\n" + prose_context)
 
     user = (
         "Generera prosan för följande scen. Skriv på svenska. "
-        "Ungefär 2000 ord. Följ scenkortet och stilriktlinjerna strikt. "
-        "Inga rubrikrader, inga metakommentarer — svara enbart med prosan.\n\n"
+        "Ungefär 2000 ord. Följ scenkortet och stilriktlinjerna strikt.\n\n"
+        "UTDATAFORMAT — följ exakt:\n"
+        "- Ren löptext utan markdown, rubriker eller metakommentarer\n"
+        "- Repliker skrivs med citationstecken, på samma rad som dialogtaggarna (t.ex. sa hon, frågade han)\n"
+        "- Varje stycke på en enda rad (inga radbrytningar inom ett stycke)\n"
+        "- Exakt en blank rad mellan styckena (dvs. ett enda tomt radmellanrum: \\n\\n)\n"
+        "- Inga dubbla blankrader, inga indragna rader, inga listor\n\n"
         "OBS: Om prosareferenser ingår i kontexten används de för stilmatchning och narrativ "
         "kontinuitet — inte som indikation på att scenerna är direkt sammanhängande i tid. "
         "Mycket kan ha hänt mellan referensscenen och denna scen; utgå från scenkortets "
@@ -303,6 +487,7 @@ def generate_prose(client, primary_model: str, scene: dict,
         + scene["card_text"]
     )
 
+    t0   = time.time()
     resp = client.chat.completions.create(
         model=primary_model,
         messages=[
@@ -312,6 +497,44 @@ def generate_prose(client, primary_model: str, scene: dict,
         temperature=0.85,
         max_completion_tokens=6000,
     )
+    print_stat(record_stat("generate", primary_model, time.time() - t0, resp.usage))
+    return resp.choices[0].message.content.strip()
+
+
+def revise_prose(client, primary_model: str, scene: dict,
+                 existing_prose: str, instruction: str,
+                 claude_md: str, chapter_context: str,
+                 continuity_context: str = "") -> str:
+    """Targeted revision of existing prose. Skips background file selection."""
+    system_parts = ["# Style guidelines\n" + claude_md]
+    if chapter_context:
+        system_parts.append("# Chapter context — overview and earlier scene cards\n" + chapter_context)
+    if continuity_context:
+        system_parts.append("# Continuity facts — details established in prior scenes\n" + continuity_context)
+    system_parts.append("# Scene card — goals and constraints for this scene\n" + scene["card_text"])
+
+    user = (
+        "Below is the existing prose for this scene. Revise it according to the instructions that follow.\n\n"
+        "OUTPUT FORMAT — follow exactly:\n"
+        "- Plain text only: no markdown, no headings, no meta-comments\n"
+        "- Each paragraph on a single line (no line breaks within a paragraph)\n"
+        "- Exactly one blank line between paragraphs (i.e. a single empty line: \\n\\n)\n"
+        "- No double blank lines, no indented lines, no lists\n\n"
+        f"--- EXISTING PROSE ---\n{existing_prose}\n\n"
+        f"--- REVISION INSTRUCTIONS ---\n{instruction}"
+    )
+
+    t0   = time.time()
+    resp = client.chat.completions.create(
+        model=primary_model,
+        messages=[
+            {"role": "system", "content": "\n\n".join(system_parts)},
+            {"role": "user",   "content": user},
+        ],
+        temperature=0.7,
+        max_completion_tokens=6000,
+    )
+    print_stat(record_stat("revise", primary_model, time.time() - t0, resp.usage))
     return resp.choices[0].message.content.strip()
 
 
@@ -320,44 +543,91 @@ def generate_prose(client, primary_model: str, scene: dict,
 # ---------------------------------------------------------------------------
 
 def main():
-    print("\n=== Kanalen — Prosagenerering ===\n")
+    print("\n=== Kanalen — Prose Generator ===\n")
 
     scenes = collect_all_scenes()
     if not scenes:
-        sys.exit("Inga scener hittades. Kontrollera att /outline innehåller .md-filer.")
+        sys.exit("No scenes found. Check that /outline contains .md files.")
 
-    print("Tillgängliga scener:")
+    print("Available scenes:")
     print_scene_list(scenes)
 
     scene = prompt_scene_choice(scenes)
-    print(f"\nVald: Scen {scene['number']} — {scene['title']}  [{scene['tidpunkt']}]")
+    print(f"\nSelected: Scen {scene['number']} — {scene['title']}  [{scene['tidpunkt']}]")
+
+    # --- Determine action ---
+    action = "generate"
+    revision_instruction = ""
+    if scene["prose_file"]:
+        action = prompt_existing_action(scene)
+        if action == "abort":
+            print("Aborted.")
+            return
+        if action == "revise":
+            revision_instruction = prompt_revision_instruction()
+            if not revision_instruction:
+                print("No instructions given — aborted.")
+                return
 
     output_path = derive_output_path(scene)
-
-    client = load_client()
+    client       = load_client()
     primary_model, fast_model = get_models()
 
-    print(f"\nSamlar bakgrundsfiler...")
-    all_files = collect_background_files()
+    # --- Continuity-only: no prose generation or revision ---
+    if action == "continuity":
+        existing_prose = scene["prose_file"].read_text(encoding="utf-8")
+        print(f"\nExtracting continuity with {fast_model}... ", end="", flush=True)
+        continuity = extract_continuity(client, fast_model, scene, existing_prose)
+        cont_path  = save_continuity(scene, continuity)
+        print("done.")
+        if cont_path:
+            print(f"Continuity: {cont_path.relative_to(ROOT)}")
+        print_summary()
+        return
 
-    print(f"Väljer relevanta filer med {fast_model}...")
-    selected = select_files(client, fast_model, scene["card_text"], all_files)
-    print(f"  Valda ({len(selected)}): {[f.name for f in selected]}")
+    print("\nLoading context...")
+    chapter_context    = extract_chapter_context(scene)
+    continuity_context = collect_continuity_context(scene, scenes)
+    claude_md          = (ROOT / "CLAUDE.md").read_text(encoding="utf-8")
 
-    print("\nLaddar kontext...")
-    chapter_context = extract_chapter_context(scene)
-    prose_context   = load_prose_context(scene, scenes)
-    claude_md       = (ROOT / "CLAUDE.md").read_text(encoding="utf-8")
-    if prose_context:
-        labels = [l.split(" —")[0] for l in re.findall(r"\[(.+?)\]", prose_context)]
-        print(f"  Prosareferenser: {labels}")
+    if continuity_context:
+        n = continuity_context.count("\n# Kontinuitet")
+        print(f"  Continuity: {max(1, n)} earlier scene(s) loaded.")
 
-    print(f"Genererar prosa med {primary_model}... ", end="", flush=True)
-    prose = generate_prose(client, primary_model, scene, selected, claude_md, chapter_context, prose_context)
-    print("klar.")
+    if action == "revise":
+        existing_prose = scene["prose_file"].read_text(encoding="utf-8")
+        print(f"Revising with {primary_model}... ", end="", flush=True)
+        prose = revise_prose(client, primary_model, scene,
+                             existing_prose, revision_instruction,
+                             claude_md, chapter_context, continuity_context)
+    else:
+        print(f"Collecting background files...")
+        all_files = collect_background_files()
+        print(f"Selecting relevant files with {fast_model}...")
+        selected = select_files(client, fast_model, scene["card_text"], all_files)
+        print(f"  Selected ({len(selected)}): {[f.name for f in selected]}")
 
+        prose_context = load_prose_context(scene, scenes)
+        if prose_context:
+            labels = [l.split(" —")[0] for l in re.findall(r"\[(.+?)\]", prose_context)]
+            print(f"  Prose references: {labels}")
+
+        print(f"Generating prose with {primary_model}... ", end="", flush=True)
+        prose = generate_prose(client, primary_model, scene, selected,
+                               claude_md, chapter_context, prose_context,
+                               continuity_context)
+
+    print("done.")
     output_path.write_text(prose, encoding="utf-8")
-    print(f"\nSparad: {output_path.relative_to(ROOT)}")
+    print(f"\nSaved: {output_path.relative_to(ROOT)}")
+
+    print(f"Extracting continuity with {fast_model}... ", end="", flush=True)
+    continuity = extract_continuity(client, fast_model, scene, prose)
+    cont_path  = save_continuity(scene, continuity)
+    print("done.")
+    if cont_path:
+        print(f"Continuity: {cont_path.relative_to(ROOT)}")
+    print_summary()
 
 
 if __name__ == "__main__":

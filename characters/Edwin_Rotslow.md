@@ -18,7 +18,9 @@
 
 ## Yttre och uppträdande
 
-Edwin Rotslow är en man som kläder och manér med omsorg — och som är fullt medveten om att det märks. Han bär gärna svart plommonstop och mörk slängkappa; handskar till vardags är en vana snarare än en pose. På Skanörs och Falsterbos gator spatserar han med tunn käpp, och han har den egenheten att vänta på att de han möter hälsar först — varefter han lyfter sin hatt, artigt men med en precision som de flesta uppfattar som avmätt.
+Lång och mager, 185 cm, med en gestalt som håller sig upprätt av vana snarare än ansträngning. Håret är silver — det grånande tidigt och nu vitt vid tinningarna — alltid välindelat och i ordning. Hans ansikte är längsträckt med djupa rynkor kring munnen som ser ut som ärr av ekonomiserade leenden; ögonen är ljust gråblå och ser sällan rakt på den de pratar med, utan lite till sidan, som om de registrerar omgivningen i stället för att konfronteras med den. Han är inte smal av ålder utan av natur; man kan se att han aldrig burit på överflödig vikt.
+
+Han kläder och manér med omsorg — och är fullt medveten om att det märks. Han bär gärna svart plommonstop och mörk slängkappa; handskar till vardags är en vana snarare än en pose. På Skanörs och Falsterbos gator spatserar han med tunn käpp, och han har den egenheten att vänta på att de han möter hälsar först — varefter han lyfter sin hatt, artigt men med en precision som de flesta uppfattar som avmätt.
 
 Näsetborna kallar honom *hög av sig*. Det är inte helt orättvist. Men det är inte heller hela bilden.
 

@@ -1,12 +1,12 @@
 # Ljungen
 
-*Skanörs ljung — hedbetesmark på Falsterbonäsets östra sida. Kanalstråket löper tvärs igenom.*
+*Skanörs ljung — hedbetesmark på Falsterbonäsets östra sida. Kanalstråket löper tvärs igenom dess östraste del.*
 
 ---
 
 ## Geografi och karaktär
 
-Ljungen är det öppna hedlandskapet som utgör Falsterbonäsets östra och centrala del. Skanör och Falsterbo ligger båda på näsets västra sida; Ljungen är det som finns däremellan och bortom — en vid, plan remsa av ljunghed, fuktiga partier och strandråg, utan bebyggelse, utan skydd mot vinden.
+Ljungen är det öppna hedlandskapet, utan bebyggelse, utan skydd mot vinden, som utgör Falsterbonäsets östra och centrala del. Skanör och Falsterbo ligger båda på näsets västra sida; Skanör i norra delen, Falsterbo i södra, ca 3km mellan dem, förbundna med en enda väg en bit in från havet.
 
 Det är ett av Sveriges och Europas största fuktiga hedlandskap. Mosaiklandskapet av torr och fuktig hed, vassruggar längs dräneringslinjer och kortbetad gräsmark ger ett öppet, nästan karaktärslöst intryck — men karaktären sitter i detaljerna: den grågröna ljungens textur, det blå-gröna i det fuktiga gräset, den låga himmellinjen.
 
@@ -17,17 +17,15 @@ Det är ett av Sveriges och Europas största fuktiga hedlandskap. Mosaiklandskap
 ## Läge i förhållande till orterna
 
 - **Skanör** ligger väster om Ljungen, ca 1–2 km. Vägen österut från Skanör tar en ut på heden.
-- **Falsterbo** ligger sydväst. Från Falsterbo leder en väg NNO ut ur orten — inte mot Skanör utan mot Ljungen direkt. Ungefär halvvägs ansluter den till den huvudväg som kommer söderifrån från Skanör och fortsätter österut ut på Ljungen.
-- **Kanalstråket** löper tvärs över näsets smalaste punkt, genom Ljungens östra del, hav till hav. Det är här Erik Lindfelt arbetar sommaren 1938.
+- **Falsterbo** ligger sydväst. Från Falsterbo leder en väg NNO ut ur orten — inte mot Skanör utan mot Ljungen direkt. Ungefär halvvägs ansluter den till den huvudväg som kommer västerifrån från Skanör och fortsätter österut ut på Ljungen.
+- **Kanalstråket** löper tvärs över näsets smalaste punkt, genom Ljungens östraste del, hav till hav. Det är här Erik Lindfelts arbete koncentreras sommaren 1938.
 
 ---
 
 ## Väggeografi — viktig för karaktärernas rörelsemönster
 
-**Eriks dagliga rutt (Falsterbo → kanalstråket):**
-Han lämnar Falsterbo norrordost — en annan väg än den mot Skanör — och cyklar ut mot Ljungen. Ungefär halvvägs ansluter han till den väg som kommer från Skanör. Därifrån fortsätter han österut, ut på den öppna heden, till sin arbetsplats vid kanalstråket.
-
-**Konsekvens:** Erik passerar *inte* Skanör på sin dagliga rutt till och från kanalstråket. Hans väg och Klaras (Skanör↔Falsterbo) är separata.
+**Eriks rutter (Falsterbo → kanalstråket):**
+Han kan ta närmsta men sämre väg ut från Falsterbo österut och ansluta till stora vägen mellan kanalområdet och Skanör ungeför mitt på, där Ljungen börjar. Han kan också ta omvägen via Skanör som är jämnare och mer använd väg.
 
 **Klaras rutt (Skanör → Falsterbohus och tillbaka):**
 Klara cyklar den direkta vägen söderut från Skanör till Falsterbo, längs näsets västra sida. Hennes väg passerar Villa Sommarbo på väg genom Falsterbo mot Falsterbohus — och passerar det igen på vägen hem norrut.

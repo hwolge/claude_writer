@@ -28,9 +28,6 @@ Den **1 augusti 1941** passerade den första passagerarbåten kanalen. Kanalen v
 
 - En sluss reglerar flödet mellan haven
 - Ursprungligt djupgående: ca **6,7 meter**
-- Nuvarande djupgående: ca **4 meter** (kanalen har grundats upp med åren)
-- År 1991 byggdes en ny bro för länsväg 100
-- Fjärrstyrs i modern tid från Sjöfartsverkets Kanalcentral i Trollhättan
 
 ---
 

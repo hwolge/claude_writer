@@ -1,0 +1,31 @@
+# Kontinuitet — Ankomst i Falsterbo (1938-05-02 13:45)
+
+- Erik sitter vid fönstret med hatten i knät under tågresan.
+- Tåget ger en jämn, stötig skakning genom bänken och ryggen.
+- Fälten är nyharvade, mörka och fuktiga med grunda vattenblänk.
+- Havet syns som stål under himlen, inte stort eller högt.
+- Skanörs station ligger där linjen gör en rättvinklig sväng söderut.
+- En kvinna i mörk kappa väntar vid stationen.
+- Falsterbo station har putsade fönster och nymålat virke.
+- Stationshuset är mindre än Erik föreställt sig.
+- Vinden från havet luktar våta brädor och tång.
+- Gatan till pensionatet har grus som knastrar under skorna.
+- Ett öppet fönster, en hammare mot trä och ett hundskall hörs.
+- Handelsboden har tätt, ordnat skyltfönster och säckar utanför.
+- Einar Mård är kraftigt byggd, med rocken uppknäppt.
+- Mård torkar handen mot rocken innan han hälsar.
+- Mård drar på ordet ”hyra” när cykel nämns.
+- Den unga kvinnan cyklar mörk cykel, rak i ryggen.
+- Hon har kappan knäppt högt och håret uppsatt under hatt/scarf.
+- Hon väntar en halv sekund för länge innan hon trampar vidare.
+- Hanna Svensson bär förkläde över mörk klänning.
+- Hon har en samlad, fast hållning och snabb blick.
+- Huset luktar svagt av såpa, fernissa och nytvättat.
+- Hallen är smal men ljus, med mörkramad spegel.
+- Rummet har ljusa väggar, smal säng och skrivbord under fönstret.
+- Gardinen rättas till en centimeter av Hanna Svensson.
+- Middag serveras klockan sex; frukost halv åtta vardagar.
+- Varmt vatten till rakning ställs utanför dörren på morgonen.
+- Tre lådor står i uthuset; en är tung och långsmal.
+- Uthuset är svalt, enkelt och välskött.
+- Cykeln med flak står lutad mot handelsbodens vägg.

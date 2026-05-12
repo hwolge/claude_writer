@@ -9,17 +9,23 @@
 - **Född:** ca 1907, troligen Malmö eller mellanstor skånsk stad
 - **Ålder under romanens period:** 31 år vid ankomsten till Falsterbo (maj 1938); 36 år vid romanens slut (1943)
 - **Yrke:** Civilingenjör, inriktning väg och vattenbyggnad eller konstruktion; troligen anställd vid konsultfirma eller statlig myndighet i Malmö
-- **Bostadsort 1938:** Pensionatet Villa Sommarbo, Falsterbo — ca 100 m norr om handelsboden vid det centrala lilla torget
+- **Bostadsort 1938:** Pensionat Olympia, Falsterbo — ca 100 m norr om handelsboden vid det centrala lilla torget
+
+---
+
+## Utseende
+
+Mittemellan hög, 178–180 cm, med den smidiga men inte slanka kroppen hos en man som rör sig mycket utomhus men inte tränar för det. Axlarna är breda av arbete snarare än representation. Händerna märks — lite för stora för kostymen, snabba och precisa i rörelserna. Håret är mörkblont och städat bakåtstruket men inte nagelfast; i fält glömmer han bort det. Ögonen är gråblå och lätt avvaktande i uttrycket. Hans ansikte är inte anmärkningsvärt — det är ett pålitligt ansikte, med en käke som indikerar envishet utan att proklamera det. Han ser yngre ut utomhus i arbetskläderna än i kostym; i kostym ser han lätt sammanbiten ut, som om plagget kräver koncentration.
 
 ---
 
 ## Ankomst och uppdrag
 
-Erik anländer med tåg från Malmö den **2 maj 1938**. Hans uppdrag är av teknisk karaktär — undersökningar, projektering, uppföljning — och är knutet till det område där kanalen senare ska dras. År 1938 är inget kanalbygge beslutat, men frågan om en säker passage förbi Falsterbonäset diskuteras i tekniska kretsar. Eriks arbete under sommaren 1938 kan vara ett förstadium till detta.
+Erik anländer med tåg från Malmö den **2 maj 1938** med ett SGU-uppdrag formulerat som erosionskartläggning och markteknisk grundutredning. Det är inte vad det egentligen är. Hans systematiska mätningar längs kanalstråket är ett förstadium till en kanalplanering han inte känner till — beställd via en civil mellanhand med marinens behov som ursprung och Rotslows diskreta hand i att den beställdes när den beställdes.
 
-Han involveras senare (1939–1941) i projekteringen och konstruktionen av kanalens bro — ett uppdrag han inte förutsåg men som fäster honom vid Falsterbo under romanens centrala år.
+Han återkommer 1939 på uppdrag av VoV — nu med öppna ögon om kanalens syfte — och är på plats 1940–1941 som broingenjör under bygget. Det är det uppdraget som fäster honom vid Falsterbo under romanens centrala år.
 
-*Detaljer kring hans exakta uppdrag sommaren 1938 är att lösa i outlinen.*
+*Se [Beställningskedjan — tråd 1](../plots/threads.md) för den fullständiga kedjan och det moraliska momentet.*
 
 ---
 
@@ -74,4 +80,4 @@ Erik anländer till Falsterbo med ett tekniskt uppdrag och en viss social kalkyl
 
 Det centrala valet i hans berättelse är inte romantiskt utan moraliskt: vad gör man med det man sett och förstått?
 
-*Se även [Helena Rotslow](Helena_Rotslow.md), [Klara Mattson](Klara_Mattson.md), [Villa Sommarbo](../world/villa-sommarbo.md) och [Falsterbokanalen — forskningsunderlag](../research/falsterbokanalen.md).*
+*Se även [Helena Rotslow](Helena_Rotslow.md), [Klara Mattson](Klara_Mattson.md), [Pensionat Olympia](../world/olympia.md) och [Falsterbokanalen — forskningsunderlag](../research/falsterbokanalen.md).*

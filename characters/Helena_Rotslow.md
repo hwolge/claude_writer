@@ -14,6 +14,12 @@
 
 ---
 
+## Utseende
+
+Medellång, 165–167 cm, med en gestalt som är slank utan att vara spenslig — det finns en precision i hur hon bär sig som gör att hon märks i ett rum utan att söka det. Håret är mörkt kastanjebrun med en naturlig glans; hon bär det uppkammat i sällskap, ibland i en enkel knut, och en lös lock längs tinningen är inte avsiktlig men sällan åtgärdad. Ansiktet är välproportionerat med höga kindknotor och en rak näsa; hyn är ljus och lite blek, vilket förstärker kontrasten mot det mörka håret. Blicken är grå, ibland nästan grön i visst ljus, och tar in mer än den avslöjar. Munnen är välformad och håller sig oftare i en neutral linje än i leende — när hon ler är det märkbart just för att det är ovanligt. Hon rör sig med en ekonomisk elegans som är uppfostringens men som sitter naturligt.
+
+---
+
 ## Bakgrund
 
 Helenas mor dog när Helena var nio eller tio år gammal. Hennes uppväxt präglades av faderns välordnade ensamhet — ett hushåll som fungerade men som saknade något outtalat. Hon uppfostrades till ordning och takt, men lärde sig tidigt att iaktta snarare än att fråga.

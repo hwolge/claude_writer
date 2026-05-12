@@ -9,8 +9,15 @@
 - **Nationalitet:** Tysk
 - **Ålder:** ca 45–55 under romanens inledning (1938)
 - **Bakgrund:** Oklar i detalj — troligen affärsman, möjligen med diplomatiska eller industriella kopplingar; har rört sig länge i nordiska kretsar
-- **Bostadsort under sommaren:** Falsterbo, troligen hyr han återkommande samma bostad eller rum; har tillbringat flera somrar i trakten
+- **Bostadsort under sommaren:** Pensionat Olympia 1938 (samma rum som tidigare somrar); från 1939 Falsterbohus
 - **Ankomst 1938:** Anländer i maj 1938, ungefär samtidigt med Erik Lindfelt
+- **Ekonomisk förändring 1939:** Återkommer med märkbart förbättrad ekonomi — synlig i valet av bostad, klädsel, sätt att röra sig i sällskapet. Vad som ligger bakom är inte uttalat, men tidpunkten sammanfaller med att kanalplanerna konkretiseras och att de intressen han representerar fått värde på en investering eller ett uppdrag
+
+---
+
+## Utseende
+
+Knappt under medellängd, 175 cm, med en välskött tyngd som signalerar välmående snarare än lättja — den sortens kropp som kräver god skräddare och har råd med det. Håret är mörkt med grå tinningar, korthållet och välstruket. Ansiktet är rundat, med mörka ögon och ett uttryck som är naturligt tillmötesgående; le:t sitter nära ytan, trovärdigt nog för att inte ifrågasättas. Händerna är välvårdade, rörelserna ekonomiska och behärskade. I sin klädsel är han konsekvent välklädd: kavajen sitter, skorna är blankputsade, och detaljerna — manchetknapparna, färgen på slipsen — är genomtänkta utan att märkas.
 
 ---
 
