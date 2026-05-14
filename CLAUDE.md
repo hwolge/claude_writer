@@ -9,6 +9,10 @@ The project is intentionally structured similarly to a software project:
 - scene-based workflow
 - incremental refinement
 
+## Arbetsflöde — ingen worktree
+
+All redigering sker direkt i huvudkatalogen (`D:\Dropbox\Kanalen - en roman`). Använd **inte** git worktrees eller isolerade grenar för detta projekt. Skäl: projektets filer är få och lätta att följa, och worktrees skapar förvirring om vilken version som är aktuell. Alla ändringar committas direkt på `master`.
+
 Non-code tasks are expected and central to this repository.
 
 ---
@@ -200,6 +204,9 @@ Avoid these specific markers of generic AI prose:
 - symmetrical or overly balanced sentence pairs that resolve too neatly
 - dialogue that exists only to deliver information neither character would need to say aloud
 - endings that summarize the scene's emotional meaning for the reader
+- consecutive paragraphs each carrying a metaphorical or symbolic charge — a plain, functional paragraph has its own weight; not every observation needs an undertone; let the prose breathe between stronger passages
+- the syntactic construction "inte X utan Y" / "inte ... utan ..." repeated in nearby paragraphs; it is a useful pattern once, a tic when it recurs; vary the syntax actively
+- the related pattern "det var inte ... det var ..." used more than once in close proximity
 
 Prefer:
 - subtle implication

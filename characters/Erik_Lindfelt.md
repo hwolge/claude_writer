@@ -9,7 +9,7 @@
 - **Född:** ca 1907, troligen Malmö eller mellanstor skånsk stad
 - **Ålder under romanens period:** 31 år vid ankomsten till Falsterbo (maj 1938); 36 år vid romanens slut (1943)
 - **Yrke:** Civilingenjör, inriktning väg och vattenbyggnad eller konstruktion; troligen anställd vid konsultfirma eller statlig myndighet i Malmö
-- **Bostadsort 1938:** Pensionat Olympia, Falsterbo — ca 100 m norr om handelsboden vid det centrala lilla torget
+- **Bostadsort 1938:** Pensionat Olympia, Falsterbo — ett kvarter bakom (norr om) handelsboden som ligger vid det centrala lilla torgets norra sida.
 
 ---
 
@@ -51,6 +51,27 @@ Erik är en iakttagare med en teknisk precisions preferens för det som kan mät
 **Hans styrka:**
 - Han är metodisk och pålitlig i sitt arbete, vilket ger honom förtroende hos uppdragsgivare
 - Han bär inte på stora ideologiska övertygelser — han är rationalist — men det gör honom sårbar när historien ställer frågor som inte kan lösas med beräkningar
+
+---
+
+## Blindfläckar och svagheter
+
+Eriks analytiska precision är genuin men skapar egna felkällor som är viktiga att hålla levande i prosan:
+
+**Han läser av situationer korrekt tekniskt men sent emotionellt.** Han uppfattar vad som händer i ett rum — vem som har initiativet, var spänningen sitter — men han reagerar ett halvt steg för sent på det mänskliga registret. Han förstår efteråt vad som pågick.
+
+**Hans neutralitet uppfattas som osynlighet, men det är den inte.** Han tror att hans professionella distans gör honom anonym i sociala situationer. Det gör den inte. Folk noterar honom mer än han räknar med, och hans försök att inte ta upp plats tar ändå plats.
+
+**Han underskattar det han inte kan mäta.** Det finns en kategori fakta — stämningar, subtexten i ett samtal, varför någon tiger just nu — som hans filter systematiskt undervärderar. Han märker anomalin ("hon svarade för fort") men drar inte slutsatsen förrän bevis ackumulerats. I mellanläget handlar han på ofullständigt underlag och tror att han inte handlar alls.
+
+**Han feltolkar reservation som ointresse.** Människor som inte ger sig till känna snabbt rubricerar han som slutna eller svårlästa, och ger upp kontakten lite för tidigt. Det är en av anledningarna till att hans relation med Klara tar tid — hennes sätt att inte erbjuda sig tolkar han länge som avstånd snarare än som det det är.
+
+**Hans copingstrategi vid social obehag är att bli mer metodisk.** När situationen är oklar eller krävande glider han in i yrkesrollen — mer precis, mer saklig, mer teknisk. Det fungerar som skydd men läses utifrån som kyla.
+
+**Små misbedömningar att hålla i minnet:**
+- Han underskattar Weiss — väljer att tro att frågorna är nyfikenhet länge efter att det borde ha feltats
+- Han bedömer Helenas värld som mer ytlig än den är, och Klaras som mer enkel — i båda fallen en projektion
+- Han gör ibland det korrekta valet av fel anledning, och det felaktiga valet av goda skäl
 
 ---
 

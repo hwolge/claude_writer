@@ -21,15 +21,15 @@ Falsterbo station byggdes 1903 som slutstation på Vellinge-Skanör-Falsterbo J�
 
 ---
 
-## Järnvägens sträckning — viktigt för geografi och rörelse
+## Järnväg och väg
 
-Järnvägen från fastlandet (Vellinge) löper in på Falsterbonäset från nordost. Den passerar **kanalstråket — näsets smalaste punkt**, och fortsätter sedan ca 7 km västerut till **Skanörs station**. Där svänger linjen 90 grader och löper ca 3 km rakt söderut till **Falsterbo station** som är terminus. Mellan Skanör och Falsterbo ligger Flommarna (dagens Flommens Naturreservat) på västra/havs-sidan sidan om järnvägen och landsvägen något stenkast på andra hållet. Insprängt i Flommarna kommer först Flommens Golfklubb och sedan Falsterbo Golfklubb, när man färdas från Skanör mot Falsterbo
+Järnvägen (VSF-banan) anländer österifrån, svänger 90 grader söderut i Skanör och slutar i Falsterbo som terminus. Landsvägen löper parallellt. Flommarna — strandängar, dammar, Flommens och Falsterbo golfklubbar — ligger på västra sidan av båda stråken hela vägen mellan städerna.
 
-Resans ordning: Malmö → Vellinge → [kanalstråket, näsets smalaste punkt] → Skanör → [90-graderssvängen] → Falsterbo.
+Resans ordning norrifrån: Malmö → Vellinge → kanalstråket (näsets smalaste punkt, havsglitter åt båda håll) → Skanör → söderut längs Flommarna → Falsterbo.
 
-Konsekvenser för karaktärernas rörelsemönster:
-- **Erik** bor i Falsterbo och arbetar vid kanalstråket. Den direkta vägen NNO ut ur Falsterbo är för sandig och ojämn för en lastad varucykel, vilket Erik konstaterar tidigt. Hans arbetsväg går därför **norrut via Skanör** längs landsvägen, sedan österut mot Ljungen längs fast underlag — en modest omväg som kostar femton minuter men ger pålitlig vägkvalitet. Denna rutt etableras i maj 1938 av praktiska skäl och förblir hans fasta väg alla somrar. Att den passerar Skanör ger också berättelsens övriga Skanörs-anknutna händelser en naturlig geografisk förankring.
-- **Klara** bor i Skanör och arbetar på Falsterbohus. Hon cyklar den direkta vägen **söderut** längs näsets västra sida, strax innanför Flommarna (vattendammarna i Flommens Naturreservat) — ca 3 km. Hennes väg går sedan rakt genom Falsterbo och **passerar Pensionat Olympia** på väg mot Falsterbohus, och förbi igen på vägen hem norrut.
+Eriks arbetsväg går norrut via Skanör längs landsvägen, sedan österut mot Ljungen — den direkta vägen NNO är för sandig för en lastad cykel. Klaras dagliga arbetsväg går söderut längs samma landsväg, förbi Pensionat Olympia, till Falsterbohus.
+
+*Se [strackan-skanor-falsterbo.md](strackan-skanor-falsterbo.md) för detaljerad beskrivning av sträckan, karaktärernas upplevelse och säsongsvariation.*
 
 ---
 
@@ -86,10 +86,46 @@ Det är den sortens lugn som bara är möjligt precis innan något ändras.
 
 ---
 
-## Naturkaraktär
+## Sensorisk karaktär — ljud, lukt, textur
 
-Ljungens doft, havsvinden, sandvägarnas knaster under cykelhjul. Tidigt på morgonen — innan sommarfolket vaknat — hör fiskmåsarna och tärnan till. Fågelstationens personal rör sig i den östra sidan av näset vid gryningen. Golfbanan ligger tyst och grön i sydväst.
+Falsterbo sommaren 1938 är inte bara en synupplevelse. Platsen har ett distinkt sensoriskt register som varierar med tid på dygnet och säsong — och som ger prosan konkret förankring utöver landskapsbeskrivning.
 
-Havet är alltid nära i Falsterbo. Det syns inte alltid, men det hörs.
+**Ljud:**
+- VSF-tåget passerar två gånger om dagen, hört på långt håll innan det syns — ett gnisslande och ett dunkande som stämmer av i det öppna landskapet och sedan tystnar lika abrupt. Man vet när det är dags.
+- Tennisbanan vid Falsterbohus: bollarnas jämna smällande mot grus under eftermiddagarna. Hörs in på hotellverandorna.
+- Golfklubbens klocka vid starttiderna — inte högt, men bär långt i stilla väder.
+- Måsarna är ett bakgrundsljud snarare än ett markerande ljud — de hörs alltid, men man lyssnar på dem bara när de plötsligt tystnar.
+- Kvällssvalan skriker högt över taken i juli, lågt i slutet av augusti. Deras frånvaro i september är märkbar.
+- Vinden i hagtornshäckarna har ett karaktäristiskt väsande som skiljer sig från vinden i öppen terräng.
+
+**Lukter:**
+- Tidig vår (maj): tjära och linolja på båtskrov vid Skanörs hamn, när båtarna förbereds för säsongen.
+- Sommar: havsvind med inslag av torkat gräs och ljung; efter regn — fuktig sand och saltluft i kombination som är svår att jämföra med något annat.
+- Röklukt från villaskorstenar på kvällen — även i juli eldar man på Näset när kvällsvinden drar in.
+- Fisk: inte i Falsterbo självt, men på vägen mot Skanör och nära hamnen. Rensad fisk på sommardagarna, sillen på hösten.
+- Sent på säsongen (september): ett lätt förruttnelselukt från strandängarna när tången torkar — inte obehaglig, men tydligt höstlig.
+
+**Textur och rörelse:**
+- Sandvägarna knastrar annorlunda beroende på hur nytorkade de är. Tidigt på morgonen, innan trafik, är ytan fast och stum. Vid middagstid — lös och dammig under hjulen.
+- Hagtornshäckarna som avgränsar villatomterna är täta och vassa — man kan inte passera igenom dem.
+- Cykelvägen längs Flommarna har ett eget underlag: packat och jämnt närmast orten, sedan mer spårigt och grunt när man rör sig mot naturreservatet.
+
+---
+
+## Social mikrogeografi
+
+Falsterbo har en tydlig social topografi som sällan sätts i ord men alltid är känd av dem som rör sig där.
+
+**Golfbanan och dess omgivning** är sommarborgarens territorum. Man passerar inte där utan anledning om man inte har en. Fältarbete i den zonen kräver en förklaring som tas emot.
+
+**Strandremsan söder om Falsterbohus** är informellt reserverad för hotellets gäster och villabornas familjer. Badgäster utifrån finns men är lätt igenkännliga och rör sig annorlunda.
+
+**Torget och handelsboden** är neutral mark — den enda platsen i Falsterbo där alla samhällsskikt kan förekomma utan att det kräver en förklaring. Mård är en av de få som med naturlighet kan tala med vem som helst.
+
+**Stigen mellan kyrkan och strandängarna** går genom ortens hjärta och används av alla — det är här man passerar folk man inte sökt upp, och det är här tillfälliga möten äger rum som ingen planerat.
+
+**Falsterbohus veranda och restaurang** är en socialt kontrollerad zon. Att sitta där innebär att man syns, och att syns innebär att man räknas till sällskapet — eller utesluts ur det. Servicepersonalen rör sig i rummet utan att tillhöra det.
+
+**Hamnen i Skanör** tillhör ett annat register helt. Det är fiskarnas och hantverkarnas plats. Sommargäster besöker den som en exkursion — det är pittoreskt — men de tillhör inte det sociala rum som finns där.
 
 *Se även [Skanör](skanor.md) (ej skriven ännu), [Falsterbokanalen — forskningsunderlag](../research/falsterbokanalen.md) och karaktärerna [Erik Lindfelt](../characters/Erik_Lindfelt.md), [Edwin Rotslow](../characters/Edwin_Rotslow.md), [Helena Rotslow](../characters/Helena_Rotslow.md).*
